@@ -33,21 +33,7 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: #000;
-`
-
-export const ImgBg = styled.img`
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    @media screen and (min-width: 769px){
-        display: none;
-    }
+    background-color: #232a34;
 `
 
 export const VideoBg = styled.video`
@@ -56,10 +42,6 @@ export const VideoBg = styled.video`
     -o-object-fit:cover;
     object-fit: cover;
     background: #232a34;
-    
-    @media screen and (max-width: 769px){
-        display: none;
-    }
 `
 
 export const HeroContent = styled.div`
