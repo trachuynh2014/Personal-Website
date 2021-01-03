@@ -1,31 +1,30 @@
-import React, {useState} from 'react'
-import Sidebar from './../components/Sidebar/index';
-import Navbar from './../components/Navbar/index';
-import HeroSection from './../components/HeroSection/index';
-import InfoSection from './../components/InfoSection/index';
-import { homeObjOne, homeObjTwo} from './../components/InfoSection/Data';
-import Services from '../components/Services';
-import Footer from './../components/Footer/index';
-
+import React, { useState } from "react";
+import Sidebar from "./../components/Sidebar/index";
+import Navbar from "./../components/Navbar/index";
+import HeroSection from "./../components/HeroSection/index";
+import InfoSection from "./../components/InfoSection/index";
+import { homeObjOne, homeObjTwo } from "./../components/InfoSection/Data";
+import Services from "../components/Services";
+import Footer from "./../components/Footer/index";
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => {
-        setIsOpen(!isOpen);
-    };
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
 
-    return (
-        <React.Fragment>
-            <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <Navbar toggle={toggle}/>
-            <HeroSection/>
-            <InfoSection {...homeObjOne}/>
-            <Services />
-            <InfoSection {...homeObjTwo}/>
-            <Footer />
-        </React.Fragment>
-    )
-}
+  return (
+    <React.Fragment>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
+      <HeroSection />
+      <InfoSection {...homeObjOne} />
+      <Services />
+      <InfoSection {...homeObjTwo} />
+      <Footer />
+    </React.Fragment>
+  );
+};
 
-export default Home
+export default Home;
