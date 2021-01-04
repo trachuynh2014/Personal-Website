@@ -6,6 +6,7 @@ import InfoSection from "./../components/InfoSection/index";
 import { homeObjOne, homeObjTwo } from "./../components/InfoSection/Data";
 import Services from "../components/Services";
 import Footer from "./../components/Footer/index";
+import Contact from "./../components/Contact/index";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,8 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <Services />
-      <InfoSection {...homeObjTwo} />
+      {/* <InfoSection {...homeObjTwo} /> */}
+      <Contact {...homeObjTwo} />
       <Footer />
     </React.Fragment>
   );
