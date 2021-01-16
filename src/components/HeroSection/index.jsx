@@ -22,7 +22,9 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={video} type="video/mp4" />
+        <VideoBg autoPlay loop muted src={video} type="video/mp4">
+          Your browser doesn't support videos.
+        </VideoBg>
       </HeroBg>
       <HeroContent>
         <HeroH1>Finn Huynh</HeroH1>
