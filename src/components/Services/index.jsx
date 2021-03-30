@@ -1,7 +1,8 @@
 import React from "react";
 import Icon1 from "../../images/java.svg";
 import Icon2 from "../../images/react.svg";
-import Icon3 from "../../images/html.svg";
+import Icon3 from "../../images/node.svg";
+import Icon4 from "../../images/html.svg";
 import {
   ServicesContainer,
   ServicesH1,
@@ -40,11 +41,23 @@ const Services = () => {
             pagination, sorting, searching, form validation, and routing.
           </ServicesP>
         </ServicesCard>
+
+        <ServicesCard
+          href="https://github.com/trachuynh2014/Backend-for-Searchable-movie-React-App"
+          target="_blank"
+        >
+          <ServicesIcon src={Icon3} alt="a Backend icon" />
+          <ServicesH2>Backend for React app</ServicesH2>
+          <ServicesP>
+            A Node/Express Backend application for Searchable movie React app
+            with the usage of MongoDB database.
+          </ServicesP>
+        </ServicesCard>
         <ServicesCard
           href="https://raynorelgie.com/MovieCrunchers/"
           target="_blank"
         >
-          <ServicesIcon src={Icon3} alt="a HTML, CSS, and JavaScript icon" />
+          <ServicesIcon src={Icon4} alt="a HTML, CSS, and JavaScript icon" />
           <ServicesH2>MovieCrunchers</ServicesH2>
           <ServicesP>
             A group project with a goal of providing platform for reviews,

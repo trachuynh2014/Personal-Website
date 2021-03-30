@@ -53,7 +53,7 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Contact </FooterLinkTitle>
               <FooterLink>
-                <AiFillHome /> Toronto, ON M6J 2M4
+                <AiFillHome /> Toronto, ON M3A 2Y7
               </FooterLink>
               <FooterLink>
                 <AiFillMail /> admin@finnhuynh.me
