@@ -6,11 +6,11 @@ import { BiPhone } from "react-icons/bi/index";
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksContainer,
-  FooterLink,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLinksWrapper,
+  FooterItemsContainer,
+  FooterItems,
+  FooterItem,
+  FooterItemTitle,
+  FooterItemsWrapper,
   SocialMediaWrap,
   SocialIconLink,
   SocialIcons,
@@ -25,45 +25,45 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>Development </FooterLinkTitle>
-              <FooterLink>Python</FooterLink>
-              <FooterLink>Java</FooterLink>
-              <FooterLink>JavaScript</FooterLink>
-              <FooterLink>HTML5</FooterLink>
-              <FooterLink>CSS</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Hard skills </FooterLinkTitle>
-              <FooterLink>Word, Excel, PowerPoint</FooterLink>
-              <FooterLink>React.js</FooterLink>
-              <FooterLink>Git</FooterLink>
-              <FooterLink>Object-Oriented Design</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>Project </FooterLinkTitle>
-              <FooterLink>Student Registry Simulator</FooterLink>
-              <FooterLink>Searchable movie React app</FooterLink>
-              <FooterLink>MovieCrunchers</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Contact </FooterLinkTitle>
-              <FooterLink>
+        <FooterItemsContainer>
+          <FooterItemsWrapper>
+            <FooterItems>
+              <FooterItemTitle>Development </FooterItemTitle>
+              <FooterItem>HTML5</FooterItem>
+              <FooterItem>CSS</FooterItem>
+              <FooterItem>JavaScript</FooterItem>
+              <FooterItem>jQuery</FooterItem>
+            </FooterItems>
+            <FooterItems>
+              <FooterItemTitle>Hard skills </FooterItemTitle>
+              <FooterItem>Word, Excel, PowerPoint</FooterItem>
+              <FooterItem>React.js</FooterItem>
+              <FooterItem>Git</FooterItem>
+              <FooterItem>Object-Oriented Design</FooterItem>
+            </FooterItems>
+          </FooterItemsWrapper>
+          <FooterItemsWrapper>
+            <FooterItems>
+              <FooterItemTitle>Project </FooterItemTitle>
+              <FooterItem>Student Registry Simulator</FooterItem>
+              <FooterItem>Searchable movie React app</FooterItem>
+              <FooterItem>MovieCrunchers</FooterItem>
+              <FooterItem>Backend for React App</FooterItem>
+            </FooterItems>
+            <FooterItems>
+              <FooterItemTitle>Contact </FooterItemTitle>
+              <FooterItem>
                 <AiFillHome /> Toronto, ON M3A 2Y7
-              </FooterLink>
-              <FooterLink>
+              </FooterItem>
+              <FooterItem>
                 <AiFillMail /> admin@finnhuynh.me
-              </FooterLink>
-              <FooterLink>
+              </FooterItem>
+              <FooterItem>
                 <BiPhone /> +1 (647) 819-0382
-              </FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-        </FooterLinksContainer>
+              </FooterItem>
+            </FooterItems>
+          </FooterItemsWrapper>
+        </FooterItemsContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <WebsiteLogo to="/" onClick={toggleHome}>

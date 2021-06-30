@@ -8,6 +8,7 @@ import {
   TopLine,
   Heading,
   Subtitle,
+  Content,
   Column2,
   Img,
   ImgWrap,
@@ -25,8 +26,6 @@ const InfoSection = ({
   img,
   alt,
   description2,
-  description3,
-  description4,
 }) => {
   return (
     <React.Fragment>
@@ -38,7 +37,7 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                <Subtitle darkText={darkText}>{description2}</Subtitle>
+                <Content darkText={darkText}>{description2}</Content>
               </TextWrapper>
             </Column1>
             <Column2>

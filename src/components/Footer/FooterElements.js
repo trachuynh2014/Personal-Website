@@ -17,7 +17,7 @@ export const FooterWrap = styled.div`
   top: 0;
 `;
 
-export const FooterLinksContainer = styled.div`
+export const FooterItemsContainer = styled.div`
   display: flex;
   justify-content: center;
 
@@ -26,7 +26,7 @@ export const FooterLinksContainer = styled.div`
   }
 `;
 
-export const FooterLinksWrapper = styled.div`
+export const FooterItemsWrapper = styled.div`
   display: flex;
 
   @media screen and (max-width: 820px) {
@@ -34,13 +34,13 @@ export const FooterLinksWrapper = styled.div`
   }
 `;
 
-export const FooterLinkItems = styled.div`
+export const FooterItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin: 16px;
   text-align: left;
-  width: 180px;
+  width: 200px;
   box-sizing: border-box;
   color: #fff;
 
@@ -51,12 +51,12 @@ export const FooterLinkItems = styled.div`
   }
 `;
 
-export const FooterLinkTitle = styled.h1`
+export const FooterItemTitle = styled.h1`
   font-size: 14px;
   margin-bottom: 16px;
 `;
 
-export const FooterLink = styled.p`
+export const FooterItem = styled.p`
   color: #fff;
   margin-bottom: 0.5rem;
   font-size: 14px;

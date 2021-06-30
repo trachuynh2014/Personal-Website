@@ -22,7 +22,6 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <Services />
-      {/* <InfoSection {...homeObjTwo} /> */}
       <Contact {...homeObjTwo} />
       <Footer />
     </React.Fragment>

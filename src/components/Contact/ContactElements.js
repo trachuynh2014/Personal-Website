@@ -13,6 +13,10 @@ export const ContactContainer = styled.div`
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
+
+  @media screen and (max-width: 480px) {
+    height: 110vh;
+  }
 `;
 export const ContactH1 = styled.h1`
   font-size: 2.5rem;

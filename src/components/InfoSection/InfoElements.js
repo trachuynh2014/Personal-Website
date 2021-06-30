@@ -83,6 +83,12 @@ export const Subtitle = styled.p`
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 `;
+
+export const Content = styled(Subtitle)`
+  font-style: italic;
+  font-weight: 800;
+`;
+
 export const ContactLink = styled.a`
   cursor: pointer;
   text-decoration: none;
